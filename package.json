@@ -1,0 +1,31 @@
+{
+  "name": "password-generator-backend",
+  "version": "1.0.0",
+  "description": "DevBack4 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevBack4/password-generator-backend.git"
+  },
+  "author": "ariel,jesus,ramiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevBack4/password-generator-backend/issues"
+  },
+  "homepage": "https://github.com/DevBack4/password-generator-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucia": "^3.1.1",
+    "pg": "^8.11.5",
+    "prisma": "^5.12.1",
+    "typescript": "^5.4.4",
+    "yarn": "^1.22.22",
+    "zod": "^3.22.4"
+  }
+}
