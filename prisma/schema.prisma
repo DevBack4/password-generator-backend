@@ -10,10 +10,10 @@ datasource db {
 model User {
   id              String     @unique @default(cuid())
   name            String
-  email           String     @unique
-  profile_image   String     @unique
-  hashed_password String
-  password        Password[]
+  email           String     @unique 
+  profile_image   String     @unique @default("no image")
+  hashed_password String             @default("hashed password")
+  password        Password[] 
   createdAt       DateTime   @default(now())
   updatedAt       DateTime   @updatedAt
 }
